@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png"/>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+	<div class="ba-intro">
+		<div class="container">
+			<header class="ba-header">
+				<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+					<button class="navbar-toggler mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+						<ul class="navbar-nav navbar-bar-decor">
+							<li class="nav-item ">
+								<a href="#" class="nav-link">Why us?</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">Cade studies</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">Video portfolio</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">Testimonials</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">Who are we?</a>
+							</li>
+							<li class="nav-item dropdown-submenu nav-item__services">
+								<a href="#" tabindex="-1" class="nav-link nav-link__services dropdown-toggle">Services</a>
+								<ul class="dropdown-menu">
+									<li class="services-submenu__item"><a class="nav-link" href="">Servise One</a></li>
+									<li class="services-submenu__item"><a class="nav-link" href="">Servise Two</a></li>
+									<li class="services-submenu__item"><a class="nav-link" href="">Servise Three</a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">Contact us</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</header>
+		</div>
+		<!-- /.header ba-header -->
+		<section class="ba-intro__content">
+			<div class="container">
+				<div class="ba-direction">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<div class="ba-direction__header">
+								<svg class="ba-direction__icon" width="35" height="54"><use xlink:href="#digital-icon"></use></svg>
+								<h2 class="ba-direction__title">Digital</h2>
+							</div>
+							<p class="ba-direction__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae nulla quis turpis cursus pharetra.</p>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="ba-direction__header">
+								<svg class="ba-direction__icon" width="43" height="45"><use xlink:href="#creative-icon"></use></svg>
+								<h2 class="ba-direction__title">Creative</h2>
+							</div>
+							<p class="ba-direction__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae nulla quis turpis cursus pharetra.</p>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="ba-direction__header">
+								<svg class="ba-direction__icon" width="47" height="36"><use xlink:href="#media-icon"></use></svg>
+								<h2 class="ba-direction__title">Media</h2>
+							</div>
+							<p class="ba-direction__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae nulla quis turpis cursus pharetra.</p>
+						</div>
+					</div>
+
+				</div>
+				<!-- /.ba-direction -->
+				<div class="ba-consultation">
+					<a href="#" class="btn ba-button" data-toggle="modal" data-target="#consultationModal">Request consultation</a>
+				</div>
+
+			</div>
+		</section>
+		<!-- /.ba-intro__content -->
+	</div>
+	<!-- /.ba-intro -->
+	<div class="modal fade" id="consultationModal" tabindex="-1" role="dialog" aria-labelledby="consultationModal" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="consultationModalLabel">Your request</h4>
+					<button class="close" type="button" data-dismiss="modal" aria-label="close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="container-fluid">
+						<form>
+							<div class="form-group">
+								<label for="requestInputEmail">Your email</label>
+								<input type="email" class="form-control" id="requestInputEmail" aria-describdby="emailHelp" placeholder="Email" required>
+								<small id="emailHelp" class="form-text text-muted">Enter your email</small>
+							</div>
+							<div class="form-group">
+								<label for="requestInputText">Your text</label>
+								<textarea name="message" class="form-control" cols="30" rows="7" id="requestInputText" placeholder="Your request" required></textarea>
+								<small id="textHelp" class="form-text text-muted">Enter your request</small>
+							</div>
+							<button type="submit" class="btn btn-primary">
+								Send request
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<main>
+
+		<section class="why-us">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-md-3">
+							<h2 class="why-us__question">Why us?</h2>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="why-us__header">
+								<svg class="why-us__icon" width="22" height="40"><use xlink:href="#mouse-icon"></use></svg>
+								<h4 class="why-us__title">Digital strategy?</h4>
+							</div>
+							<p class="why-us__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae nulla quis turpis cursus pharetra. <a href="#" class="why-us__read-more">Read more</a></p>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="why-us__header">
+								<svg class="why-us__icon" width="25" height="27"><use xlink:href="#video-icon"></use></svg>
+								<h4 class="why-us__title">Need a video?</h4>
+							</div>
+							<p class="why-us__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae nulla quis turpis cursus pharetra. <a href="#" class="why-us__read-more">Read more</a></p>
+						</div>
+						<div class="col-sm-6 col-md-3">
+							<div class="why-us__header">
+								<svg class="why-us__icon" width="29" height="23"><use xlink:href="#solution-icon"></use></svg>
+								<h4 class="why-us__title">Full solution</h4>
+							</div>
+							<p class="why-us__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae nulla quis turpis cursus pharetra. <a href="#" class="why-us__read-more">Read more</a></p>
+						</div>
+					</div>
+					<!-- /.row -->
+				</div>
+				<!-- /.container -->
+		</section>
+		<!-- /.why-us -->
+
+		<section class="research">
+			<div class="container">
+				<div class="row">
+					<div class="col-research-4">
+						<h2 class="research__title">
+							We beleive research is a form of creating new knowledge.
+						</h2>
+						<div class="research__description">
+							<p>Our eBook explains all the essentials that you will require to get the valuation of your company to start sky rocketting!</p>
+							<a class="research__link" href="#">Dowload ebook</a>
+						</div>
+						<div class="research__description">
+							<p>Success starts by correcting your mistakes,
+								and we’ll show you how! Watch our short video tutorial to avoid the five basic mistakes entrepreneurs do.</p>
+							<a class="research__link" href="#">Watch video</a>
+						</div>
+
+						<!-- /.reasearch__description -->
+					</div>
+					<div class="col-research-8">
+						<div class="research__block">
+							<div class="research-col">
+								<div class="research-type">
+									<div class="research-type--content">
+										<svg class="research__icon" width="32" height="21"><use xlink:href="#analisys-icon"></use></svg>
+										<p class="research-type__name">Data analysis</p>
+									</div>
+								</div>
+								<div class="research-type">
+									<div class="research-type--content">
+										<svg class="research__icon" width="33" height="35"><use xlink:href="#promoting-icon"></use></svg>
+										<p class="research-type__name">Global promoting</p>
+									</div>
+								</div>
+								<div class="research-type">
+									<div class="research-type--content">
+										<svg class="research__icon" width="35" height="29"><use xlink:href="#premium-icon"></use></svg>
+										<p class="research-type__name">Premium online and offline placements</p>
+									</div>
+								</div>
+							</div>
+							<div class="research-col">
+								<div class="research-type">
+									<div class="research-type--content">
+										<svg class="research__icon" width="27" height="41"><use xlink:href="#strategic-icon"></use></svg>
+										<p class="research-type__name">Strategic development</p>
+									</div>
+								</div>
+								<div class="research-type">
+									<div class="research-type--content">
+										<svg class="research__icon" width="35" height="45"><use xlink:href="#expertise-icon"></use></svg>
+										<p class="research-type__name">Creative expertise</p>
+									</div>
+								</div>
+								<div class="research-type research-type--end">
+									<div class="research-type--content">
+										<svg class="research__icon" width="29" height="31"><use xlink:href="#scripting-icon"></use></svg>
+										<p class="research-type__name">Scripting, production and post</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /.research-block -->
+					</div>
+				</div>
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /.research -->
+
+		<section class="case-studies">
+			<div class="container-fluid">
+				<h2 class="case-studies__title">
+					Our case studies
+				</h2>
+				<!-- /.case-studies__title -->
+				<div class="row justify-content-center">
+
+					<div class="case-studies__item">
+						<a href="#" class="case-studies__project">
+							<img src="img/project1.jpg" alt="project1" class="case-studies__img">
+							<p class="case-studies__name">Promo strategy<br/><span>Cola</p>
+
+						</a>
+					</div>
+
+					<div class="case-studies__item">
+						<a href="#" class="case-studies__project">
+							<img src="img/project2.jpg" alt="project2" class="case-studies__img">
+							<p class="case-studies__name">Digital strategy<br/><span>Apple</span></p>
+						</a>
+					</div>
+
+					<div class="case-studies__item">
+						<a href="#" class="case-studies__project">
+							<img src="img/project3-hov.jpg" alt="project3" class="case-studies__img">
+							<p class="case-studies__name">Media strategy<br/><span>Nokia</span></p>
+						</a>
+					</div>
+
+				</div>
+				<div class="case-studies__more">
+					<a href="#" class="btn ba-button ba-button__more">Explore more case studies</a>
+				</div>
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /.case-studies -->
+
+
+
+		<section class="video-block">
+			<div class="container-fluid">
+				<div class="video-block__content">
+					<video class="video-block__item" poster="img/poster.jpg" src="img/video_23.mp4"></video>
+					<div class="video-block__controls">
+						<div class="orange-bar">
+							<div class="oramge-juice"></div>
+						</div>
+						<div class="video-block__buttons">
+							<button id="play-pause">
+
+							</button>
+						</div>
+					</div>
+					<!-- /.video-block__controls -->
+				</div>
+			</div>
+			<!-- /.container-fluid -->
+		</section>
+		<!-- /.video-content -->
+
+		<section class="slider">
+			<div class="container-fluid text-center">
+				<div id="carouselSliderIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li class="active" data-target="#carouselSliderIndicators" data-slide-to="0"></li>
+						<li data-target="#carouselSliderIndicators" data-slide-to="1"></li>
+						<li data-target="#carouselSliderIndicators" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img src="img/slider1.jpg" alt="slide1" class="slider-img">
+							<div class="carousel-caption d-sm-block">
+								<p class="slide-phrase">“You know that feeling of trust that job will be done perfectly. That’s how it was working with CompanyName. They knew exactly what we wanted.”</p>
+								<p class="slide-phrase-author">- Michael Dawson, San Francisco, CA -</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="img/slider2.jpg" alt="slide2" class="slider-img">
+							<div class="carousel-caption d-md-block">
+								<p class="slide-phrase">“Oh, no room for Bender, huh? Fine! I’ll go build my own lunar lander, with blackjack and hookers. In fact, forget the lunar lander and the blackjack. Ahh, screw the whole thing!”</p>
+								<p class="slide-phrase-author">- Bender Rodriges, interplanetary express, Earth -</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img src="img/slider3-sm.jpg" alt="slide3" class="slider-img">
+							<div class="carousel-caption d-md-block">
+								<p class="slide-phrase">“I am the thing that goes bump in the night! I am the neurosis that requires a five-hundred-dollar-an-hour shrink!”</p>
+								<p class="slide-phrase-author">- Darkwing Duck, San Canar, CA -</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /.container-fluid -->
+		</section>
+		<!-- /.slider -->
+		<section class="consultation-block text-center">
+			<a href="#" class="btn ba-button ba-button--rmbr" data-toggle="modal" data-target="#consultationModal">Request consultation</a>
+		</section>
+
+	</main>
+	<footer class="ba-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-3 text-center text-sm-left">
+					<h6 class="ba-footer__header">Who we are?</h6>
+					<ul class="ba-footer__list">
+						<li><a href="#" class="ba-footer__item">About us</a></li>
+						<li><a href="#" class="ba-footer__item">Our clients</a></li>
+						<li><a href="#" class="ba-footer__item">Press Releases</a></li>
+						<li><a href="#" class="ba-footer__item">Video Portfolio</a></li>
+						<li><a href="#" class="ba-footer__item">Contact us</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-6 col-md-3 text-center text-sm-left">
+					<h6 class="ba-footer__header">How we work?</h6>
+					<ul class="ba-footer__list">
+						<li><a href="#" class="ba-footer__item">Strategy</a></li>
+						<li><a href="#" class="ba-footer__item">Creative</a></li>
+						<li><a href="#" class="ba-footer__item">Media</a></li>
+						<li><a href="#" class="ba-footer__item">eBooks and publishes</a></li>
+						<li><a href="#" class="ba-footer__item">Press</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-6 col-md-3 text-center text-sm-left">
+					<h6 class="ba-footer__header">Terms & Policies</h6>
+					<ul class="ba-footer__list">
+						<li><a href="#" class="ba-footer__item">FAQ</a></li>
+						<li><a href="#" class="ba-footer__item">Terms & conditions</a></li>
+						<li><a href="#" class="ba-footer__item">Privacy policy</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-6 col-md-3 text-center text-sm-left">
+					<h6 class="ba-footer__header">Social</h6>
+					<ul class="ba-footer__list">
+						<li><a href="#" class="ba-footer__item">Facebook</a></li>
+						<li><a href="#" class="ba-footer__item">Twitter</a></li>
+						<li><a href="#" class="ba-footer__item">Tumblr</a></li>
+						<li><a href="#" class="ba-footer__item">Instagram</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- /.container -->
+	</footer>
+	<!-- /.ba-footer -->
+
+
+	<svg style="position: absolute; width: 0; height: 0;" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<defs>
+			<symbol id="digital-icon" viewBox="0 0 35 63">
+				<path fill-rule="evenodd"  fill="rgb(47, 162, 229)"
+				d="M33.270,8.940 C31.658,11.051 28.696,11.822 24.460,11.241 C21.823,10.880 19.764,11.387 18.185,12.803 C15.404,15.295 14.803,19.902 14.677,22.158 C21.159,22.939 26.215,28.372 26.215,35.010 L26.215,49.826 C26.215,57.001 20.333,62.837 13.105,62.837 C5.877,62.837 -0.005,57.001 -0.005,49.826 L-0.005,35.010 C-0.005,28.352 5.080,22.909 11.587,22.152 C11.718,19.505 12.438,13.827 16.119,10.530 C18.384,8.501 21.332,7.716 24.885,8.209 C26.978,8.498 29.702,8.535 30.809,7.095 C32.059,5.466 31.113,2.294 30.643,1.211 L33.473,-0.009 C33.720,0.556 35.820,5.605 33.270,8.940 ZM13.105,25.060 C7.577,25.060 3.080,29.524 3.080,35.010 L3.080,49.826 C3.080,55.312 7.577,59.776 13.105,59.776 C18.633,59.776 23.130,55.312 23.130,49.826 L23.130,35.010 C23.130,29.524 18.633,25.060 13.105,25.060 ZM13.236,46.088 C11.157,46.088 9.466,44.409 9.466,42.345 L9.466,33.504 C9.466,31.440 11.157,29.762 13.236,29.762 C15.316,29.762 17.008,31.440 17.008,33.504 L17.008,42.345 C17.008,44.409 15.316,46.088 13.236,46.088 ZM13.923,33.504 C13.923,33.129 13.614,32.822 13.236,32.822 C12.858,32.822 12.551,33.129 12.551,33.504 L12.551,42.345 C12.551,43.095 13.923,43.095 13.923,42.345 L13.923,33.504 Z"/>
+			</symbol>
+			<symbol id="creative-icon" viewBox="0 0 43 45">
+				<path fill-rule="evenodd"  fill="rgb(47, 162, 229)"
+				d="M30.833,44.806 L30.833,-0.004 L42.143,-0.004 L42.143,44.806 L30.833,44.806 ZM39.201,3.082 L33.775,3.082 L33.775,5.162 L35.620,5.162 C36.433,5.162 37.092,5.853 37.092,6.706 C37.092,7.559 36.433,8.249 35.620,8.249 L33.775,8.249 L33.775,9.503 L35.247,9.503 C36.060,9.503 36.718,10.193 36.718,11.046 C36.718,11.899 36.060,12.589 35.247,12.589 L33.775,12.589 L33.775,14.229 L35.247,14.229 C36.060,14.229 36.718,14.920 36.718,15.772 C36.718,16.625 36.060,17.316 35.247,17.316 L33.775,17.316 L33.775,18.829 L35.620,18.829 C36.433,18.829 37.092,19.519 37.092,20.373 C37.092,21.225 36.433,21.916 35.620,21.916 L33.775,21.916 L33.775,41.719 L39.201,41.719 L39.201,3.082 ZM26.879,16.092 C26.066,16.092 25.407,15.402 25.407,14.549 L25.407,5.988 L23.999,5.988 L23.999,16.159 L23.999,19.245 L23.999,44.203 L15.385,44.203 L15.385,19.245 L15.385,16.159 L15.385,-0.004 L23.999,-0.004 L23.999,2.901 L26.879,2.901 C27.692,2.901 28.350,3.593 28.350,4.445 L28.350,14.549 C28.350,15.402 27.692,16.092 26.879,16.092 ZM21.057,3.082 L18.327,3.082 L18.327,16.159 L21.057,16.159 L21.057,3.082 ZM21.057,19.245 L18.327,19.245 L18.327,41.116 L21.057,41.116 L21.057,19.245 ZM5.499,44.203 C2.482,44.203 0.028,41.629 0.028,38.464 L0.028,27.477 C0.028,24.312 2.482,21.738 5.499,21.738 C8.517,21.738 10.971,24.312 10.971,27.477 L10.971,38.464 C10.971,41.629 8.517,44.203 5.499,44.203 ZM8.028,27.477 C8.028,26.015 6.893,24.825 5.499,24.825 C4.106,24.825 2.971,26.015 2.971,27.477 L2.971,31.427 L8.028,31.427 L8.028,27.477 ZM8.028,34.514 L2.971,34.514 L2.971,38.464 C2.971,39.926 4.106,41.116 5.499,41.116 C6.893,41.116 8.028,39.926 8.028,38.464 L8.028,34.514 Z"/>
+			</symbol>
+			<symbol id="media-icon" viewBox="0 0 47 36">
+				<path fill-rule="evenodd"  fill="rgb(47, 162, 229)"
+				d="M45.654,29.205 L31.370,29.205 L33.911,33.083 C34.168,33.476 34.184,33.972 33.952,34.379 C33.720,34.785 33.278,35.037 32.798,35.037 L14.373,35.037 C13.893,35.037 13.450,34.785 13.219,34.379 C12.987,33.972 13.003,33.476 13.260,33.083 L15.800,29.205 L1.339,29.205 C0.610,29.205 0.021,28.636 0.021,27.932 L0.021,2.238 C0.021,1.535 0.610,0.965 1.339,0.965 L45.654,0.965 C46.382,0.965 46.971,1.535 46.971,2.238 L46.971,27.932 C46.971,28.636 46.382,29.205 45.654,29.205 ZM30.403,32.491 L28.249,29.205 L18.921,29.205 L16.768,32.491 L30.403,32.491 ZM44.336,3.511 L2.656,3.511 L2.656,20.666 L44.336,20.666 L44.336,3.511 ZM44.336,23.213 L2.656,23.213 L2.656,26.658 L44.336,26.658 L44.336,23.213 ZM24.560,25.723 L22.613,25.723 L22.613,23.842 L24.560,23.842 L24.560,25.723 Z"/>
+			</symbol>
+			<symbol id="mouse-icon" viewBox="0 0 22 40">
+				<path fill-rule="evenodd"  fill="rgb(47, 162, 229)"
+				d="M20.643,6.263 C19.672,7.552 17.887,8.023 15.336,7.668 C13.747,7.448 12.507,7.758 11.556,8.623 C9.880,10.145 9.518,12.960 9.442,14.338 C13.347,14.816 16.393,18.135 16.393,22.192 L16.393,31.245 C16.393,35.627 12.850,39.194 8.495,39.194 C4.140,39.194 0.597,35.627 0.597,31.245 L0.597,22.192 C0.597,18.123 3.660,14.798 7.580,14.334 C7.659,12.717 8.093,9.248 10.311,7.234 C11.675,5.994 13.451,5.515 15.592,5.816 C16.853,5.992 18.493,6.015 19.160,5.135 C19.914,4.140 19.344,2.202 19.061,1.540 L20.766,0.794 C20.914,1.140 22.179,4.225 20.643,6.263 ZM8.495,16.112 C5.165,16.112 2.455,18.839 2.455,22.192 L2.455,31.245 C2.455,34.596 5.165,37.324 8.495,37.324 C11.825,37.324 14.535,34.596 14.535,31.245 L14.535,22.192 C14.535,18.839 11.825,16.112 8.495,16.112 ZM8.574,28.960 C7.322,28.960 6.303,27.934 6.303,26.673 L6.303,21.272 C6.303,20.010 7.322,18.984 8.574,18.984 C9.827,18.984 10.846,20.010 10.846,21.272 L10.846,26.673 C10.846,27.934 9.827,28.960 8.574,28.960 ZM8.988,21.272 C8.988,21.042 8.802,20.856 8.574,20.856 C8.346,20.856 8.161,21.042 8.161,21.272 L8.161,26.673 C8.161,27.131 8.988,27.131 8.988,26.673 L8.988,21.272 Z"/>
+			</symbol>
+			<symbol id="video-icon" viewBox="0 0 25 27">
+				<path fill-rule="evenodd"  fill="rgb(47, 162, 229)"
+				d="M22.412,11.779 C23.673,11.779 24.699,12.792 24.699,14.039 L24.699,23.947 C24.699,25.193 23.673,26.206 22.412,26.206 L3.035,26.206 C1.774,26.206 0.748,25.193 0.748,23.947 L0.748,14.039 C0.748,12.792 1.774,11.779 3.035,11.779 L10.092,11.779 C10.119,11.413 10.221,11.067 10.394,10.747 L1.911,2.352 C1.614,2.058 1.614,1.581 1.912,1.286 C2.210,0.994 2.693,0.993 2.991,1.287 L11.472,9.681 C11.861,9.472 12.280,9.357 12.726,9.357 C13.293,9.357 13.817,9.536 14.248,9.837 L23.178,1.013 C23.475,0.719 23.958,0.719 24.256,1.013 C24.553,1.307 24.553,1.784 24.256,2.079 L15.194,11.033 C15.285,11.267 15.338,11.518 15.358,11.779 L22.412,11.779 ZM11.924,11.188 C11.923,11.188 11.923,11.191 11.921,11.192 C11.918,11.195 11.913,11.196 11.910,11.200 C11.757,11.359 11.675,11.561 11.636,11.779 L13.820,11.779 C13.657,10.996 12.579,10.586 11.924,11.188 ZM3.035,13.285 C2.615,13.285 2.273,13.623 2.273,14.039 L2.273,23.947 C2.273,24.362 2.615,24.699 3.035,24.699 L22.412,24.699 C22.833,24.699 23.175,24.362 23.175,23.947 L23.175,14.039 C23.175,13.623 22.833,13.285 22.412,13.285 L3.035,13.285 ZM13.549,15.678 L20.636,15.678 L20.636,17.185 L13.549,17.185 L13.549,15.678 ZM3.446,21.778 C3.746,20.521 4.492,19.510 5.450,18.939 C5.120,18.540 4.913,18.039 4.913,17.485 C4.913,16.213 5.961,15.179 7.248,15.179 C8.535,15.179 9.582,16.213 9.582,17.485 C9.582,18.041 9.374,18.546 9.040,18.944 C9.424,19.173 9.786,19.457 10.097,19.830 C10.553,20.370 10.878,21.027 11.059,21.776 L11.283,22.705 L3.225,22.705 L3.446,21.778 ZM7.248,16.684 C6.801,16.684 6.438,17.043 6.438,17.485 C6.438,17.926 6.801,18.286 7.248,18.286 C7.694,18.286 8.058,17.926 8.058,17.485 C8.058,17.043 7.694,16.684 7.248,16.684 ZM9.210,21.198 C9.125,21.053 9.030,20.916 8.924,20.792 C7.869,19.530 6.101,19.813 5.297,21.198 L9.210,21.198 ZM17.092,19.699 L13.549,19.699 L13.549,18.193 L17.092,18.193 L17.092,19.699 ZM17.092,22.019 L13.549,22.019 L13.549,20.512 L17.092,20.512 L17.092,22.019 Z"/>
+			</symbol>
+			<symbol id="solution-icon" viewBox="0 0 29 23">
+				<path fill-rule="evenodd"  fill="rgb(47, 162, 229)"
+				d="M28.017,18.772 L23.675,22.988 L22.517,21.863 L24.903,19.548 L17.470,19.548 L9.604,14.281 L5.884,18.863 L4.599,17.879 L9.270,12.126 L17.980,17.958 L24.901,17.958 L22.519,15.643 L23.676,14.519 L28.017,18.737 L27.999,18.755 L28.017,18.772 ZM24.447,5.988 L24.448,2.743 L16.620,13.911 L8.178,8.313 L1.275,16.682 L-0.002,15.688 L7.849,6.168 L16.189,11.700 L23.277,1.590 L19.919,1.589 L19.919,-0.002 L26.059,0.000 L26.059,0.026 L26.086,0.026 L26.084,5.988 L24.447,5.988 Z"/>
+			</symbol>
+			<symbol id="analisys-icon" viewBox="0 0 32 21">
+				<path fill-rule="evenodd"  fill="rgb(47, 162, 229)"
+				d="M25.717,20.802 L25.717,11.304 L31.985,11.304 L31.985,20.802 L25.717,20.802 ZM29.980,13.327 L27.721,13.327 L27.721,18.779 L29.980,18.779 L29.980,13.327 ZM17.866,0.849 L24.133,0.849 L24.133,20.802 L17.866,20.802 L17.866,0.849 ZM19.870,18.779 L22.129,18.779 L22.129,2.873 L19.870,2.873 L19.870,18.779 ZM9.014,5.402 L15.282,5.402 L15.282,20.802 L9.014,20.802 L9.014,5.402 ZM11.018,18.779 L13.277,18.779 L13.277,7.425 L11.018,7.425 L11.018,18.779 ZM-0.006,0.849 L6.261,0.849 L6.261,20.802 L-0.006,20.802 L-0.006,0.849 ZM1.998,18.779 L4.257,18.779 L4.257,2.873 L1.998,2.873 L1.998,18.779 Z"/>
+			</symbol>
+			<symbol id="promoting-icon" viewBox="0 0 33 35">
+				<path fill-rule="evenodd"  fill="rgb(47, 162, 229)"
+				d="M16.830,34.304 C7.848,34.304 0.813,30.626 0.813,25.931 C0.813,23.462 2.683,21.236 6.079,19.663 C6.574,19.433 7.158,19.649 7.389,20.144 C7.617,20.639 7.403,21.226 6.908,21.454 C4.288,22.668 2.785,24.300 2.785,25.931 C2.785,29.020 8.430,32.329 16.830,32.329 C25.243,32.329 30.895,29.020 30.895,25.931 C30.895,24.297 29.385,22.666 26.753,21.455 C26.258,21.227 26.042,20.641 26.270,20.146 C26.497,19.650 27.079,19.434 27.578,19.661 C30.989,21.231 32.867,23.457 32.867,25.931 C32.867,30.626 25.823,34.304 16.830,34.304 ZM25.141,19.205 L25.141,19.206 L24.988,19.368 L24.846,19.519 C24.836,19.529 24.827,19.539 24.817,19.548 L16.834,27.971 L8.847,19.548 L8.846,19.548 C8.797,19.500 8.753,19.451 8.707,19.402 L8.522,19.206 L8.522,19.205 L8.516,19.199 C6.595,17.101 5.538,14.389 5.538,11.560 C5.538,5.325 10.604,0.253 16.832,0.253 C23.058,0.253 28.125,5.325 28.125,11.560 C28.125,14.390 27.067,17.103 25.146,19.199 L25.141,19.205 ZM16.832,2.228 C11.693,2.228 7.511,6.414 7.511,11.560 C7.511,13.751 8.281,15.860 9.689,17.544 L9.743,17.544 L10.051,17.948 C10.103,18.019 10.177,18.088 10.248,18.158 L10.248,18.159 L16.834,25.103 L23.415,18.159 L23.415,18.158 C23.486,18.088 23.559,18.019 23.611,17.948 L23.973,17.544 C25.382,15.862 26.152,13.753 26.152,11.560 C26.152,6.414 21.972,2.228 16.832,2.228 ZM16.832,17.451 C13.579,17.451 10.941,14.812 10.941,11.556 C10.941,8.300 13.579,5.659 16.832,5.659 C20.084,5.659 22.721,8.300 22.721,11.556 C22.721,14.812 20.084,17.451 16.832,17.451 ZM16.832,7.635 C14.673,7.635 12.914,9.393 12.914,11.556 C12.914,13.717 14.673,15.476 16.832,15.476 C18.992,15.476 20.749,13.717 20.749,11.556 C20.749,9.393 18.992,7.635 16.832,7.635 Z"/>
+			</symbol>
+			<symbol id="premium-icon" viewBox="0 0 35 29">
+				<path fill-rule="evenodd"  fill="rgb(47, 162, 229)"
+				d="M34.484,23.806 L29.210,28.960 L27.805,27.586 L30.702,24.754 L21.677,24.754 L12.124,18.314 L7.607,23.916 L6.047,22.713 L11.719,15.678 L22.296,22.810 L30.700,22.810 L27.807,19.979 L29.213,18.604 L34.484,23.762 L34.461,23.784 L34.484,23.806 ZM30.148,8.173 L30.149,4.205 L20.644,17.862 L10.394,11.016 L2.011,21.249 L0.460,20.034 L9.994,8.393 L20.121,15.157 L28.727,2.794 L24.650,2.793 L24.650,0.849 L32.105,0.851 L32.105,0.881 L32.138,0.881 L32.136,8.173 L30.148,8.173 Z"/>
+			</symbol>
+			<symbol id="strategic-icon" viewBox="0 0 27 41">
+				<path fill-rule="evenodd"  fill="rgb(47, 162, 229)"
+				d="M25.254,35.948 C25.906,35.185 26.050,34.129 25.580,33.172 L24.842,31.745 C25.046,31.314 25.150,30.825 25.150,30.336 C25.150,28.654 23.962,27.245 22.344,26.835 L16.770,15.960 C17.672,14.923 18.185,13.612 18.185,12.243 C18.185,10.366 17.223,8.605 15.664,7.529 L15.664,3.598 C15.664,1.799 14.150,0.351 12.266,0.351 C10.401,0.351 8.865,1.799 8.865,3.598 L8.865,7.236 C7.020,8.292 5.894,10.190 5.894,12.243 C5.894,13.730 6.446,15.118 7.512,16.194 L1.059,34.072 C0.957,34.326 0.917,34.600 0.917,34.913 C0.917,35.674 1.263,36.395 1.855,36.884 L0.981,39.119 C0.783,39.625 1.053,40.188 1.583,40.376 C1.701,40.419 1.821,40.438 1.941,40.438 C2.357,40.438 2.748,40.196 2.902,39.803 L3.790,37.533 C4.894,37.492 5.894,36.828 6.262,35.774 L12.243,19.089 L17.610,29.593 C17.549,29.847 17.529,30.082 17.529,30.336 C17.529,31.764 18.389,32.977 19.619,33.564 L19.629,33.564 L19.639,33.583 L20.621,35.461 C21.053,36.360 22.035,36.947 23.102,36.947 C23.220,36.947 23.340,36.945 23.460,36.909 L24.588,39.272 C24.760,39.631 25.132,39.843 25.520,39.843 C25.662,39.843 25.806,39.816 25.944,39.756 C26.460,39.531 26.686,38.952 26.452,38.460 L25.254,35.948 ZM23.102,30.336 C23.102,30.493 23.080,30.629 23.040,30.767 C23.040,30.786 23.020,30.786 23.020,30.786 L23.020,30.796 L22.466,31.607 C22.157,31.881 21.769,32.018 21.339,32.018 C21.133,32.018 20.949,31.999 20.785,31.921 C20.725,31.921 20.683,31.900 20.621,31.881 C20.007,31.627 19.577,31.040 19.577,30.336 C19.577,30.218 19.597,30.101 19.619,30.004 C19.619,29.964 19.619,29.925 19.639,29.906 C19.659,29.828 19.679,29.769 19.721,29.690 C19.721,29.690 19.721,29.690 19.721,29.671 C19.987,29.065 20.601,28.654 21.339,28.654 C21.461,28.654 21.585,28.673 21.687,28.693 C22.485,28.850 23.102,29.514 23.102,30.336 ZM10.913,3.598 C10.913,2.894 11.527,2.307 12.266,2.307 C13.001,2.307 13.616,2.894 13.616,3.598 L13.616,6.336 L13.616,7.725 L13.616,8.702 L10.913,8.684 L10.913,7.705 L10.913,6.924 L10.913,3.598 ZM13.862,17.818 L13.412,16.937 L13.290,16.683 C13.104,16.331 12.756,16.136 12.367,16.136 C12.305,16.136 12.224,16.155 12.141,16.155 C12.121,16.175 12.101,16.175 12.079,16.175 C12.039,16.155 11.977,16.136 11.937,16.155 C11.875,16.136 11.813,16.136 11.773,16.155 L11.753,16.155 C11.711,16.155 11.671,16.155 11.649,16.175 C11.609,16.175 11.567,16.175 11.547,16.194 C11.465,16.214 11.403,16.252 11.343,16.291 C11.323,16.291 11.301,16.291 11.281,16.331 C11.219,16.370 11.137,16.429 11.077,16.526 C11.055,16.526 11.055,16.547 11.035,16.566 C10.995,16.625 10.953,16.723 10.913,16.801 L10.851,16.977 L10.503,17.916 L4.338,35.148 C4.214,35.480 3.826,35.676 3.456,35.558 C3.436,35.558 3.416,35.539 3.396,35.539 C3.150,35.421 2.965,35.207 2.965,34.913 C2.965,34.815 2.986,34.757 2.986,34.698 L9.213,17.426 L9.561,16.487 L9.643,16.233 C9.683,16.136 9.705,16.019 9.705,15.920 C9.705,15.823 9.683,15.725 9.663,15.646 C9.643,15.549 9.601,15.470 9.541,15.392 C9.541,15.373 9.519,15.373 9.519,15.353 C9.459,15.274 9.377,15.197 9.295,15.138 L9.171,15.040 C8.373,14.296 7.942,13.300 7.942,12.243 C7.942,11.325 8.271,10.463 8.865,9.779 L8.865,10.052 C8.865,11.851 10.401,13.300 12.266,13.300 C14.026,13.300 15.480,12.009 15.644,10.366 C15.972,10.933 16.136,11.579 16.136,12.243 C16.136,13.300 15.706,14.258 14.886,15.021 C14.804,15.080 14.744,15.158 14.682,15.237 C14.498,15.509 14.456,15.881 14.620,16.214 L14.722,16.409 L15.174,17.289 L20.089,26.913 C19.639,27.050 19.209,27.285 18.861,27.578 L13.862,17.818 ZM22.466,34.619 L22.097,33.896 C22.568,33.818 23.020,33.641 23.408,33.387 L23.736,34.033 C23.900,34.366 23.756,34.776 23.408,34.933 C23.204,35.030 22.650,35.011 22.466,34.619 Z"/>
+			</symbol>
+			<symbol id="expertise-icon" viewBox="0 0 35 45">
+				<path fill-rule="evenodd"  fill="rgb(47, 162, 229)"
+				d="M33.462,0.913 L22.429,0.913 C21.875,0.913 21.426,1.356 21.426,1.905 L21.426,42.860 C20.087,42.974 18.745,42.987 17.415,42.900 L17.415,20.506 C17.415,20.319 17.348,20.153 17.256,20.002 L17.268,19.995 L9.826,7.996 C9.644,7.703 9.321,7.523 8.972,7.523 C8.623,7.523 8.300,7.703 8.118,7.996 L0.662,19.995 L0.666,19.999 C0.574,20.150 0.506,20.316 0.506,20.506 L0.506,37.460 C0.506,37.774 0.659,38.061 0.897,38.244 C2.159,39.328 3.528,40.296 4.960,41.115 C8.382,43.112 12.310,44.386 16.322,44.802 C17.258,44.894 18.202,44.943 19.148,44.943 C20.284,44.943 21.422,44.875 22.555,44.741 C26.584,44.278 30.410,42.983 33.926,40.890 C34.106,40.798 34.261,40.651 34.359,40.465 C34.459,40.276 34.494,40.066 34.465,39.864 L34.465,1.905 C34.465,1.356 34.016,0.913 33.462,0.913 ZM6.470,21.499 L11.176,21.499 L11.176,41.683 C9.536,41.160 7.957,40.485 6.470,39.661 L6.470,21.499 ZM3.317,19.514 L6.142,14.966 C7.036,15.323 8.000,15.508 8.972,15.508 C9.965,15.508 10.927,15.324 11.801,14.972 L14.616,19.514 L3.317,19.514 ZM8.972,10.412 L10.711,13.217 C9.620,13.567 8.384,13.569 7.236,13.206 L8.972,10.412 ZM2.512,21.499 L4.465,21.499 L4.465,38.448 C3.793,37.993 3.136,37.515 2.512,36.997 L2.512,21.499 ZM15.409,42.687 C14.661,42.576 13.918,42.423 13.181,42.252 L13.181,21.499 L15.409,21.499 L15.409,42.687 ZM32.459,39.442 C29.636,41.052 26.608,42.118 23.432,42.618 L23.432,22.952 L27.946,22.952 L27.946,20.967 L23.432,20.967 L23.432,19.016 L26.237,19.016 L26.237,17.031 L23.432,17.031 L23.432,15.094 L26.190,15.094 L26.190,13.109 L23.432,13.109 L23.432,11.184 L27.946,11.184 L27.946,9.199 L23.432,9.199 L23.432,7.461 L26.128,7.461 L26.128,5.476 L23.432,5.476 L23.432,2.898 L32.459,2.898 L32.459,39.442 Z"/>
+			</symbol>
+			<symbol id="scripting-icon" viewBox="0 0 29 31">
+				<path fill-rule="evenodd"  fill="rgb(47, 162, 229)"
+				d="M21.118,30.249 L21.118,0.366 L28.658,0.366 L28.658,30.249 L21.118,30.249 ZM26.696,2.425 L23.080,2.425 L23.080,3.811 L24.310,3.811 C24.852,3.811 25.290,4.272 25.290,4.840 C25.290,5.410 24.852,5.870 24.310,5.870 L23.080,5.870 L23.080,6.706 L24.060,6.706 C24.603,6.706 25.041,7.167 25.041,7.735 C25.041,8.304 24.603,8.765 24.060,8.765 L23.080,8.765 L23.080,9.858 L24.060,9.858 C24.603,9.858 25.041,10.318 25.041,10.887 C25.041,11.456 24.603,11.916 24.060,11.916 L23.080,11.916 L23.080,12.926 L24.310,12.926 C24.852,12.926 25.290,13.386 25.290,13.955 C25.290,14.523 24.852,14.984 24.310,14.984 L23.080,14.984 L23.080,28.191 L26.696,28.191 L26.696,2.425 ZM18.482,11.100 C17.940,11.100 17.501,10.640 17.501,10.071 L17.501,4.362 L16.562,4.362 L16.562,11.144 L16.562,13.203 L16.562,29.847 L10.819,29.847 L10.819,13.203 L10.819,11.144 L10.819,0.366 L16.562,0.366 L16.562,2.303 L18.482,2.303 C19.024,2.303 19.463,2.764 19.463,3.333 L19.463,10.071 C19.463,10.640 19.024,11.100 18.482,11.100 ZM14.601,2.425 L12.781,2.425 L12.781,11.144 L14.601,11.144 L14.601,2.425 ZM14.601,13.203 L12.781,13.203 L12.781,27.788 L14.601,27.788 L14.601,13.203 ZM4.229,29.847 C2.217,29.847 0.581,28.130 0.581,26.020 L0.581,18.693 C0.581,16.582 2.217,14.866 4.229,14.866 C6.240,14.866 7.876,16.582 7.876,18.693 L7.876,26.020 C7.876,28.130 6.240,29.847 4.229,29.847 ZM5.915,18.693 C5.915,17.718 5.158,16.924 4.229,16.924 C3.300,16.924 2.543,17.718 2.543,18.693 L2.543,21.327 L5.915,21.327 L5.915,18.693 ZM5.915,23.386 L2.543,23.386 L2.543,26.020 C2.543,26.995 3.300,27.788 4.229,27.788 C5.158,27.788 5.915,26.995 5.915,26.020 L5.915,23.386 Z"/>
+			</symbol>
+		</defs>
+	</svg>
+
+
+	<!-- Optional Javascript -->
+	<!-- JQuery first, then Popper.js, then Bootstrap.js -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
