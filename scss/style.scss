@@ -349,6 +349,7 @@ textarea {
 	background: $primary-color;
 	background: radial-gradient(ellipse at center, rgba(55,152,212,1) 0%, rgba(26,28,33,1) 60%, rgba(26,28,33,1) 77%);
 	padding: 90px 0 140px;
+	overflow: hidden;
 	.col-research-4, .col-research-8 {
 		padding-left: 15px;
 		padding-right: 15px;
@@ -440,6 +441,7 @@ textarea {
 
 .case-studies {
 	padding: 86px 0 83px;
+	overflow: hidden;
 	background: #1B1C21  url("../img/studies-bg.png") no-repeat;
 	background-size: cover;
 	&__title {

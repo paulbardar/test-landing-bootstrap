@@ -926,6 +926,7 @@ select {
   background: #1B1C21;
   background: radial-gradient(ellipse at center, #3798d4 0%, #1a1c21 60%, #1a1c21 77%);
   padding: 90px 0 140px;
+  overflow: hidden;
 }
 .research .col-research-4, .research .col-research-8 {
   padding-left: 15px;
@@ -1040,6 +1041,7 @@ select {
 
 .case-studies {
   padding: 86px 0 83px;
+  overflow: hidden;
   background: #1B1C21 url("../img/studies-bg.png") no-repeat;
   background-size: cover;
 }
