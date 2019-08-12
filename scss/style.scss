@@ -84,9 +84,11 @@ button,
 	&:hover {
 		background-color: #2FA1E5;
 	}
-	@media (max-width: 720px) {
-		max-width: 300px;
+	@media (max-width: 768px) {
+		width: auto;
+		padding: 10px;
 	}
+
 
 }
 .ba-button {
@@ -167,6 +169,15 @@ textarea {
 	background: $primary-color url("../img/intro.jpg") no-repeat 50% 50%;
 	padding: 0 0 80px;
 	background-size: cover;
+	nav.navbar {
+		@media (max-width: 768px) {
+			position: fixed;
+			right: 20px;
+		}
+		button.navbar-toggler {
+			width: auto;
+		}
+	}
 	.navbar-nav {
 		border-bottom: 1px solid #25A0E8;
 		.nav-link {
@@ -194,6 +205,9 @@ textarea {
 	}
 	.ba-direction {
 		padding: 283px 0 171px;
+		@media (max-width: 576px) {
+			padding: 100px 0 100px;
+		}
 		&__header {
 			display: flex;
 			align-items: center;
@@ -241,7 +255,7 @@ textarea {
     top:40px;
     left: -20px ;
     margin-top:-6px;
-    background: transparent;
+    background: rgba(0, 18, 38, .7);
     .nav-link {
     	padding: 5px;
     }
@@ -301,6 +315,9 @@ textarea {
 	background: #1B1C21  url("../img/studies-bg.png") no-repeat;
 	background-size: cover;
 	padding: 340px 0 350px;
+	@media (max-width: 768px) {
+		padding: 80px 0;
+	}
 
 	&__question {
 		color: #2fa1e5;
@@ -364,6 +381,11 @@ textarea {
 			width: 63.2%;
 		}
 	}
+	@media (max-width: 767px) {
+		.col-research-4 {
+			margin-bottom: 50px;
+		}
+	}
 
 	&__title {
 		margin-bottom: 25px;
@@ -402,6 +424,9 @@ textarea {
 		}
 		&:first-child {
 			margin-left: 0;
+			@media (max-width: 444px) {
+			margin-left: 10px;
+		}
 		}
 		@media (max-width: 479px) {
 			margin-left: 10px;
@@ -448,6 +473,9 @@ textarea {
 		text-align: center;
 		margin-bottom: 150px;
 		position: relative;
+		@media (max-width: 510px) {
+			margin-bottom: 40px;
+		}
 		&:after {
 			content: "";
 			height: 2px;
@@ -466,6 +494,9 @@ textarea {
 			margin-bottom: 10px;
 			margin-left: 10px;
 			transform: rotate(0deg);
+		}
+		@media (max-width: 768px) {
+			margin-left: 0;
 		}
 		&:after {
 			content: "";
@@ -500,6 +531,9 @@ textarea {
 		font-size: 24px;
 		font-family: $title-font;
 		text-transform: uppercase;
+		@media (max-width: 510px) {
+			transform: rotate(0deg);
+		}
 		span {
 			font-size: 30px;
 		}
@@ -556,6 +590,7 @@ textarea {
 	}
 	&__item {
 		width: 100%;
+		max-height: 890px;
 	}
 	video[poster] {
 		object-fit: cover;

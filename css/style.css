@@ -724,12 +724,13 @@ button:hover,
 .ba-button:hover {
   background-color: #2FA1E5;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   input[type="submit"],
   input[type="button"],
   button,
   .ba-button {
-    max-width: 300px;
+    width: auto;
+    padding: 10px;
   }
 }
 
@@ -789,6 +790,15 @@ select {
   padding: 0 0 80px;
   background-size: cover;
 }
+@media (max-width: 768px) {
+  .ba-intro nav.navbar {
+    position: fixed;
+    right: 20px;
+  }
+}
+.ba-intro nav.navbar button.navbar-toggler {
+  width: auto;
+}
 .ba-intro .navbar-nav {
   border-bottom: 1px solid #25A0E8;
 }
@@ -812,6 +822,11 @@ select {
 }
 .ba-intro .ba-direction {
   padding: 283px 0 171px;
+}
+@media (max-width: 576px) {
+  .ba-intro .ba-direction {
+    padding: 100px 0 100px;
+  }
 }
 .ba-intro .ba-direction__header {
   display: -webkit-flex;
@@ -863,7 +878,7 @@ select {
   top: 40px;
   left: -20px;
   margin-top: -6px;
-  background: transparent;
+  background: rgba(0, 18, 38, 0.7);
 }
 .dropdown-submenu > .dropdown-menu .nav-link {
   padding: 5px;
@@ -877,6 +892,11 @@ select {
   background: #1B1C21 url("../img/studies-bg.png") no-repeat;
   background-size: cover;
   padding: 340px 0 350px;
+}
+@media (max-width: 768px) {
+  .why-us {
+    padding: 80px 0;
+  }
 }
 .why-us__question {
   color: #2fa1e5;
@@ -941,6 +961,11 @@ select {
     width: 63.2%;
   }
 }
+@media (max-width: 767px) {
+  .research .col-research-4 {
+    margin-bottom: 50px;
+  }
+}
 .research__title {
   margin-bottom: 25px;
   margin-top: 40px;
@@ -990,6 +1015,11 @@ select {
 }
 .research .research-col:first-child {
   margin-left: 0;
+}
+@media (max-width: 444px) {
+  .research .research-col:first-child {
+    margin-left: 10px;
+  }
 }
 @media (max-width: 479px) {
   .research .research-col {
@@ -1050,6 +1080,11 @@ select {
   margin-bottom: 150px;
   position: relative;
 }
+@media (max-width: 510px) {
+  .case-studies__title {
+    margin-bottom: 40px;
+  }
+}
 .case-studies__title:after {
   content: "";
   height: 2px;
@@ -1073,6 +1108,11 @@ select {
     -webkit-transform: rotate(0deg);
         -ms-transform: rotate(0deg);
             transform: rotate(0deg);
+  }
+}
+@media (max-width: 768px) {
+  .case-studies__item {
+    margin-left: 0;
   }
 }
 .case-studies__item:after {
@@ -1106,6 +1146,13 @@ select {
   font-size: 24px;
   font-family: "Geogrotesque", Arial, sans-serif;
   text-transform: uppercase;
+}
+@media (max-width: 510px) {
+  .case-studies__name {
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
 }
 .case-studies__name span {
   font-size: 30px;
@@ -1165,6 +1212,7 @@ select {
 }
 .video-block__item {
   width: 100%;
+  max-height: 890px;
 }
 .video-block video[poster] {
   object-fit: cover;
